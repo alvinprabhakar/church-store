@@ -39,9 +39,9 @@ const PORT = process.env.PORT || port;
             console.log("connected to MongoDB")
         });
 
-        app.get('/',(req,res) => {
-            res.json({msg: "welcome to my store!!!!!!!!"})
-        })
+        // app.get('/',(req,res) => {
+        //     res.json({msg: "welcome to my store!!!!!!!!"})
+        // })
 
         if(process.env.NODE_ENV === 'production'){
             app.use(express.static('client/build'))

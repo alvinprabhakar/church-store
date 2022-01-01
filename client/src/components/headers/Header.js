@@ -8,8 +8,8 @@ import axios from 'axios';
 
 function Header(){
     const state = useContext(GlobalState)
-    const [isLogged , setIsLogged] = state.userAPI.isLogged
-    const [isAdmin , setIsAdmin] = state.userAPI.isAdmin
+    const [isLogged ] = state.userAPI.isLogged
+    const [isAdmin ] = state.userAPI.isAdmin
     const [cart] = state.userAPI.cart;
     const [menu , setMenu] = useState(false);
 
@@ -40,7 +40,7 @@ function Header(){
         )
     }
 
-    const toggleMenu = () => setMenu(!menu)
+    //const toggleMenu = () => setMenu(!menu)
     const styleMenu = {
         left: menu ? 0 : "-100%"
     }

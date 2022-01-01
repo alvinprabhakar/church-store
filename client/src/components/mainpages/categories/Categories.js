@@ -1,7 +1,7 @@
 import React , {useState,useContext} from 'react';
 import {GlobalState} from '../../../GlobalState';
-import Loading from '../utils/loading/Loading';
-import ProductItem from '../utils/productItem/ProductItem';
+// import Loading from '../utils/loading/Loading';
+// import ProductItem from '../utils/productItem/ProductItem';
 import axios from 'axios';
 function Categories(){
 
