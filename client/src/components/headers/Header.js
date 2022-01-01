@@ -54,7 +54,7 @@ function Header(){
 
             <div className="logo">
                 <h1>
-                    <Link to="/">{isAdmin ? 'Admin': 'Rafhika Shop'}</Link>
+                    <Link to="/">{isAdmin ? 'Admin': 'Church Store'}</Link>
                 </h1>
             </div>
 
